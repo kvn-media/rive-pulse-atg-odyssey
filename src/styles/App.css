@@ -1,3 +1,4 @@
+/* src/styles/App.css */
 .App {
   text-align: center;
 }
@@ -14,14 +15,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--deep-ocean-blue); /* Adjusted for consistency */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--soft-white);
+  padding: 2rem; /* Added padding for better spacing on smaller screens */
 }
 
 .App-link {

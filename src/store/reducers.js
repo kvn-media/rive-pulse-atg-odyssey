@@ -3,11 +3,11 @@ const initialState = {
     tankData: [],
 };
 
-const rootReducer = (state = initialState) => {
+const rootReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'SET_TANK_DATA':
             return {
-              ...state,
+             ...state,
                 tankData: action.payload,
             };
         default:
