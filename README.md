@@ -1,4 +1,79 @@
-# Getting Started with Create React App
+# RivePulse ATG Odyssey
+
+RivePulse ATG Odyssey is an IoT Tank Monitoring and Management Dashboard that integrates Rive animations, Automatic Tank Gauge (ATG) technology, and real-time data tracking.
+
+## Features
+
+- Dynamic Rive animations for engaging user experience
+- Integration with Automatic Tank Gauge (ATG) technology
+- Real-time monitoring and management of fluid flow data
+- Responsive design for optimal viewing on various devices
+
+## Technologies Used
+
+- React.js
+- React Router
+- Redux for state management
+- Firebase for real-time data updates
+- Rive animations for dynamic visuals
+- Tailwind CSS for responsive design
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- npm: Included with Node.js installation
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/rive-pulse-atg-odyssey.git
+   ```
+
+2. Change to the project directory:
+
+   ```bash
+   cd rive-pulse-atg-odyssey
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Usage
+
+```bash
+npm start
+```
+
+Visit [http://localhost:3000](http://localhost:3000) in your web browser to see the dashboard.
+
+## Contributing
+
+If you would like to contribute to this project, please follow the [Contributing Guidelines](Contributing.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Thanks to the Rive community for their animation assets.
+- ...
+
+## Contact
+
+For questions or inquiries, contact email [Muhammad Kevin](kevin.subagio@gmail.com)
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +142,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
