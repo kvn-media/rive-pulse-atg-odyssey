@@ -13,7 +13,12 @@
     --soft-white: #f5f5f5;
     --light-blue: #a8e1e6;
     --teal-glow: #7ea0a5;
-  }
+    --text-color: var(--soft-white);
+
+    /* Dark mode styles */
+    --dark-background-color: #000;
+    --dark-text-color: #fff;
+}
 
 /* Custom styles go here */
 .Container {
@@ -51,6 +56,16 @@
     @media (min-width: 1024px) {
         padding: 3rem; /* Triple the padding on desktops */
     }
+}
+
+body.light-mode {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+  
+body.dark-mode {
+    background-color: var(--dark-background-color);
+    color: var(--dark-text-color);
 }
 
 /* Responsive Margin for Specific Components
