@@ -13,6 +13,7 @@ RivePulse ATG Odyssey is an IoT Tank Monitoring and Management Dashboard that in
 
 - React.js
 - React Router
+- React Hook form
 - Redux for state management
 - Firebase for real-time data updates
 - Rive animations for dynamic visuals
