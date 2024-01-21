@@ -1,4 +1,5 @@
 // src/components/RiveAnimation.js
+
 import React from 'react';
 import { Rive } from 'react-rive';
 

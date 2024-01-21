@@ -1,11 +1,11 @@
-// src/components/Dashboard.js
+// src/views/dashboard_view/Dashboard.js
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { FirebaseService } from '../services/FirebaseService';
 import { setTankData } from '../redux/actions';
-import RiveAnimation from './RiveAnimation';
+import RiveAnimation from '../../components/RiveAnimation';
 
-const Dashboard = () => {
+const DashboardView = () => {
     const tankData = useSelector((state) => state.tankData);
     const dispatch = useDispatch();
   
@@ -19,11 +19,12 @@ const Dashboard = () => {
   
     return (
       <div className="container mx-auto p-4">
-        <h1 className="text-2x1 font-bold mb-4">IoT Tank Monitoring Dashboard</h1>
+        <h1 className="text-2xl font-bold mb-4">IoT Tank Monitoring Dashboard</h1>
         {tankData.map((tank) => (
           <div key={tank.id} className="mb-6">
             <h3 className="text-lg font-semibold mb-2">Tank {tank.id}</h3>
             <RiveAnimation animationData={tank.animationData} />
+            <p>Level: {tank.level}%</p>
             {/* Add more tank details and animations */}
           </div>
         ))}
@@ -31,4 +32,4 @@ const Dashboard = () => {
     );
   };
   
-  export default Dashboard;
+  export default DashboardView;

@@ -1,6 +1,6 @@
-# RivePulse ATG Odyssey
+# Rive Pulse ATG Odyssey
 
-RivePulse ATG Odyssey is an IoT Tank Monitoring and Management Dashboard that integrates Rive animations, Automatic Tank Gauge (ATG) technology, and real-time data tracking.
+Rive Pulse ATG Odyssey is an IoT Tank Monitoring and Management Dashboard that integrates Rive animations, Automatic Tank Gauge (ATG) technology, Flow Meter Measurement, and real-time data tracking.
 
 ## Features
 
@@ -60,7 +60,7 @@ If you would like to contribute to this project, please follow the [Contributing
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](license).
 
 ## Acknowledgments
 
