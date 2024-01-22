@@ -1,10 +1,10 @@
 // src/views/dashboard/DashboardView.js
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { FirebaseService } from '../../services/FirebaseService';
+import { FirebaseService } from '../services/FirebaseService';
 import { setTankData } from '../../store/actions';
-import RiveAnimation from '../../components/RiveAnimation';
-import Card from '../../components/common/Card';
+import RiveAnimation from '../components/RiveAnimation';
+import Card from '../components/common/Card';
 
 const DashboardView = () => {
     const tankData = useSelector((state) => state.tankData);

@@ -68,18 +68,66 @@ body.dark-mode {
     color: var(--dark-text-color);
 }
 
-/* Responsive Margin for Specific Components
+/* Responsive Margin for Specific Components */
 .my-component {
     margin-bottom: 1rem;
 
     @media (min-width: 768px) {
         margin-bottom: 2rem; /* Double margin on tablets and above */
-    /* } */
+    }
 
-    /* @media (min-width: 1024px) { */
-        /* margin-bottom: 3rem; Triple margin on desktops */
-    /* } */
-/* } */
+    @media (min-width: 1024px) {
+        margin-bottom: 3rem; /* Triple margin on desktops */
+    }
+}
+
+.dashboard-container {
+    /* Updated background property to support ocean and sky backgrounds */
+    --ocean-background: url('path/to/ocean-background.jpg');
+    --sky-background: url('path/to/sky-background.jpg');
+    background-image: var(--ocean-background);
+    /* Add other styling properties as needed */
+}
+
+
+/* Example: Add color classes to your UI elements */
+.primary-background {
+    background-color: var(--deep-ocean-blue);
+}
+
+.secondary-element {
+    background-color: var(--seaweed-green);
+}
+
+.interactive-element {
+    background-color: var(--turquoise-water);
+    color: var(--deep-ocean-blue);
+}
+
+.text-accent {
+    color: var(--sunlight-yellow);
+}
+
+
+/* Example: Define font and button styles */
+.heading-font {
+    font-family: 'YourHeadingFont', sans-serif; /* Replace with your chosen font */
+    color: var(--deep-ocean-blue);
+}
+
+.body-text {
+    font-family: 'YourBodyTextFont', sans-serif; /* Replace with your chosen font */
+    color: var(--soft-white);
+}
+
+.button-styles {
+    background-color: var(--turquoise-water);
+    color: var(--deep-ocean-blue);
+}
+
+.button-styles:hover {
+    background-color: var(--teal-glow);
+}
 
 
 .font-bold {

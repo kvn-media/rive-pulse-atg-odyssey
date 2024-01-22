@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import DashboardView from './views/dashboard/DashboardView';
-import Form from './components/forms/Form';
+import Form from './components/forms/form';
 
 const App = () => {
   return (

@@ -1,13 +1,12 @@
 // src/components/common/Loading.js
 import React from 'react';
 
-const Loading = () => {
+const LoadingIndicator = () => {
   return (
-    <div className="Container text-center p-4">
-      <p>Loading...</p>
-      {/* Add a loading spinner or animation if needed */}
+    <div className="spinner-border" role="status">
+      <span className="sr-only">Loading...</span>
     </div>
   );
 };
 
-export default Loading;
+export default LoadingIndicator;
